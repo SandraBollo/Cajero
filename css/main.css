@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+}
+.bi{
+color: #ff07f7;
+}
+.black1{
+    color: black;
+    font-size: 35px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFF;
+    height: 400px;
+    color: rgb(50, 52, 54);
+    align-items: stretch;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+    
+
+.tarjeta {
+    background-color:#FFF;
+}
+
+.btn{
+    background-color: indigo!important;
+    border: none;
+    
+    font-size: 20px;
+}
+label {
+    color:rgb(50, 52, 54);
+    font-size: 20px;
+}
+.fondo{
+    background: linear-gradient(#8f21f3, #ff07f7);
+}
+
+.error{
+    color: crimson;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.oculto{
+    display: none;
+}
+
+.divLoginOculto {
+    display: none;
+}
+
+.bancaOculta {
+    display: none;
+}
+
+.showBanca {
+    display: block;
+}
+
+.tex{
+    color:#ff07f7;
+    font-size:30px;
+}
+
+.saldo{
+    color: indigo;
+    font-size: 50px;
+    text-align: center;
+   
+}
